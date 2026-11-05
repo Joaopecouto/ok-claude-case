@@ -1,5 +1,9 @@
+<h1 align="center">Ok, Claude</h1>
+
+<p align="center">Agenda desktop com assistente de IA · <i>Desktop planner with an AI assistant</i></p>
+
 <p align="center">
-  <img src="./assets/card-ok-claude.png" alt="Ok, Claude: agenda desktop com assistente de IA" width="640">
+  <img src="./assets/chips/tauri.png" alt="Tauri" height="30"> <img src="./assets/chips/rust.png" alt="Rust" height="30"> <img src="./assets/chips/react.png" alt="React" height="30"> <img src="./assets/chips/typescript.png" alt="TypeScript" height="30"> <img src="./assets/chips/sqlite.png" alt="SQLite" height="30"> <img src="./assets/chips/claude-api.png" alt="Claude API" height="30">
 </p>
 
 > **PT** Case study de um projeto em desenvolvimento. O código é privado.
