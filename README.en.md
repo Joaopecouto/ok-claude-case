@@ -55,62 +55,62 @@ flowchart TD
 Progress below reflects the project documentation as of November 2026.
 
 #### Today (Dashboard)
-Day summary, next appointment with a meeting link taken from Google, and weather. The AI-written summary is stored per day, with a button to ask for a new one, within the spending cap. Status: in progress.
+The screen shows the day summary, the next appointment with the meeting link taken from Google, and the weather. The AI-written summary is stored per day, with a button to ask for a new one, within the spending cap. It is in progress.
 
 <p align="center"><img src="./assets/screens/hoje.png" alt="Today screen: the AI-written day summary, plan blocks, weather, birthday and the day focus." width="92%"><br><sub>Today screen: the AI-written day summary, plan blocks, weather, birthday and the day focus.</sub></p>
 
 #### Schedule
-Full-screen daily plan with routine, tasks, events and weather: outdoor activities land in the sunny hours. Without the AI, the day is built from the matrix and the events alone. Screen status: done. Dragging blocks and the AI-planned week belong to v2.
+The schedule shows the daily plan full screen, with routine, tasks, events and weather: outdoor activities land in the sunny hours. Without the AI, the day is built from the matrix and the events alone. The screen is done. Dragging blocks and the AI-planned week belong to v2.
 
 <p align="center"><img src="./assets/screens/cronograma.png" alt="AI-generated schedule for the day, with times, events, tasks and block progress." width="92%"><br><sub>AI-generated schedule for the day, with times, events, tasks and block progress.</sub></p>
 
 #### Board (Kanban)
-Columns, cards with checklist, importance and first step, filters, drag by mouse or keyboard. Dragging to the Done column completes the task. Birthday cards are created automatically. Status: done.
+The Board has columns, cards with a checklist, importance and first step, filters, and drag by mouse or keyboard. Dragging to the Done column completes the task, and birthday cards are created automatically. It is done.
 
 <p align="center"><img src="./assets/screens/board.png" alt="Kanban board with its four columns, colored areas, due dates and the birthday card." width="92%"><br><sub>Kanban board with its four columns, colored areas, due dates and the birthday card.</sub></p>
 
 #### Matrix
-Tasks by urgency and importance. Status: done.
+The Matrix sorts tasks by urgency and importance. It is done.
 
 <p align="center"><img src="./assets/screens/matriz.png" alt="Priority matrix: importance against due date, four quadrants, areas by color." width="92%"><br><sub>Priority matrix: importance against due date, four quadrants, areas by color.</sub></p>
 
 #### Calendar
-Day, Week, Month and Agenda views, Google sync every 30 seconds, an offline write queue with a "pending" badge and a dialog to disconnect the account. The app never deletes an event on Google: deleting here marks it as ignored and sends it to the Trash. Views: done. Week, detail and event form: in progress.
+The Calendar has Day, Week, Month and Agenda views and syncs with Google every 30 seconds. An offline write queue holds what was saved without a network, with a "pending" badge, and a dialog lets the user disconnect the account. The app never deletes an event on Google: deleting here marks it as ignored and sends it to the Trash. The views are done, and the week, the detail and the event form are in progress.
 
 <p align="center"><img src="./assets/screens/calendario.png" alt="Calendar in week view, with the side mini-month, the calendar list and the day events." width="92%"><br><sub>Calendar in week view, with the side mini-month, the calendar list and the day events.</sub></p>
 
 #### Focus and triage
-Blocks with short and long breaks, time in the tray and window title, a beep and a notification at the end. Focus: done. Triage: in progress.
+Focus runs blocks with short and long breaks, shows the time in the tray and window title, and ends with a beep and a notification. Focus is done, and triage is in progress.
 
 <p align="center"><img src="./assets/screens/foco.png" alt="A focus session running on a task, with the timer, the pre-start checklist and the notes parked for later." width="92%"><br><sub>A focus session running on a task, with the timer, the pre-start checklist and the notes parked for later.</sub></p>
 
 #### Review
-Closes the day and invites the user through Windows at the end of the dinner routine. Status: done.
+The Review closes the day and invites the user through Windows at the end of the dinner routine. It is done.
 
 <p align="center"><img src="./assets/screens/revisao.png" alt="Day review: planned versus done, what was left and the owner focus note." width="92%"><br><sub>Day review: planned versus done, what was left and the owner focus note.</sub></p>
 
 #### People
-Directory with birthdays and preferences. Status: done.
+The directory keeps each person's birthday and preferences. It is done.
 
 <p align="center"><img src="./assets/screens/pessoas.png" alt="People list with relation, birthday and notes; the upcoming birthday is highlighted." width="92%"><br><sub>People list with relation, birthday and notes; the upcoming birthday is highlighted.</sub></p>
 
 #### Reminders
-Core, firing job, Windows notification and a pop-up list with OK and Snooze exist in the code. Status: in progress.
+The core, the firing job, the Windows notification and a pop-up list with OK and Snooze already exist in the code. The screen is in progress.
 
 <p align="center"><img src="./assets/screens/lembretes.png" alt="Scheduled reminders, each with OK, Snooze 10 min and Cancel, and where it came from (screen or voice)." width="92%"><br><sub>Scheduled reminders, each with OK, Snooze 10 min and Cancel, and where it came from (screen or voice).</sub></p>
 
 #### Memory
-Pages written by the AI, with pin, forget, a 1 GB limit and keyword search. The core and tables exist. Status: in progress. Semantic search with local embeddings belongs to v2.
+Memory holds pages written by the AI, with pin, forget, a 1 GB limit and keyword search. The core and tables exist, and the screen is in progress. Semantic search with local embeddings belongs to v2.
 
 <p align="center"><img src="./assets/screens/memoria.png" alt="Assistant memory: facts, procedures and episodes, with pin, edit, delete and the usage meter." width="92%"><br><sub>Assistant memory: facts, procedures and episodes, with pin, edit, delete and the usage meter.</sub></p>
 
 #### Trash
-Soft delete in every module, restore and automatic purge after 30 days. Status: in progress.
+Deletion is soft in every module, with restore and an automatic purge after 30 days. The Trash is in progress.
 
 <p align="center"><img src="./assets/screens/lixeira.png" alt="Trash with 30-day restore: deleted tasks, events, people, reminders and memory pages." width="92%"><br><sub>Trash with 30-day restore: deleted tasks, events, people, reminders and memory pages.</sub></p>
 
 #### Settings
-API key, city, Google, shortcut, start with Windows, backup restore and a first-use walkthrough. Status: in progress.
+Settings brings together the API key, city, Google, shortcut, start with Windows, backup restore and a first-use walkthrough. They are in progress.
 
 <p align="center"><img src="./assets/screens/configuracoes.png" alt="Settings: voice and shortcut, AI key, monthly spend and cap, and the Google Calendar connection." width="92%"><br><sub>Settings: voice and shortcut, AI key, monthly spend and cap, and the Google Calendar connection.</sub></p>
 
@@ -152,7 +152,7 @@ flowchart LR
     TYPES --> UI
 ```
 
-Data model, summarized by numbered migrations (16 so far): tasks, columns, labels, checklists and links to people; events, series and an outbox for Google; people; focus sessions and notes; schedule plans and blocks; day reviews; reminders; assistant conversations, messages, actions and usage; memory pages, versions, entities and links; settings and weather cache.
+The data model, summarized by numbered migrations (16 so far), covers: tasks, columns, labels, checklists and links to people; events, series and an outbox for Google; people; focus sessions and notes; schedule plans and blocks; day reviews; reminders; assistant conversations, messages, actions and usage; memory pages, versions, entities and links; settings and weather cache.
 
 ### Engineering decisions
 
@@ -182,10 +182,10 @@ On 11/05/2026, 1,031 TypeScript tests were passing. An earlier round recorded in
 
 ### What is left
 
-- Installer without elevation, end-to-end tests on the packaged app and final performance measurement: not started.
+- The installer without elevation, the end-to-end tests on the packaged app and the final performance measurement have not started.
 - Voice is in the measurement phase: local listening and streaming transcription have runners ready, and the measurements with the user's voice are recorded as not yet run.
 - Reminder tools and the memory and PC tools in the assistant, plus part of the Reminders and Memory screens, are being finished.
 - Open items for calendar, trash and dashboard are tracked in their own files.
-- Version 2, planned only: an MCP server for other agents on the PC, opening Claude Code sessions, repeating reminders, event series, an AI-planned week, dragging blocks, memory with semantic search.
+- Version 2 is only planned and includes an MCP server for other agents on the PC, opening Claude Code sessions, repeating reminders, event series, an AI-planned week, dragging blocks and memory with semantic search.
 
 <sub>Contact: <a href="https://joaocouto.alcetus.com">joaocouto.alcetus.com</a> · <a href="mailto:joaopecouto77@gmail.com">joaopecouto77@gmail.com</a></sub>

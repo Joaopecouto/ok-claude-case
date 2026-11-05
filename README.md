@@ -55,62 +55,62 @@ flowchart TD
 O andamento abaixo reflete a documentação do projeto em novembro de 2026.
 
 #### Hoje (Dashboard)
-Resumo do dia, próximo compromisso com link de reunião vindo do Google e clima. O resumo escrito pela IA fica guardado por dia, com botão para pedir outro, respeitando o teto de gasto. Status: em andamento.
+A tela mostra o resumo do dia, o próximo compromisso com o link da reunião vindo do Google e o clima. O resumo escrito pela IA fica guardado por dia, com botão para pedir outro, respeitando o teto de gasto. Ela está em andamento.
 
 <p align="center"><img src="./assets/screens/hoje.png" alt="Tela Hoje: resumo do dia escrito pela IA, blocos do plano, clima, aniversário e foco do dia." width="92%"><br><sub>Tela Hoje: resumo do dia escrito pela IA, blocos do plano, clima, aniversário e foco do dia.</sub></p>
 
 #### Cronograma
-Plano do dia em tela cheia, com rotina, tarefas, eventos e clima: atividade ao ar livre cai nas horas de sol. Sem a IA, o dia é montado só pela matriz e pelos eventos. Status da tela: concluído. Arrastar blocos e a semana planejada pela IA são da v2.
+O cronograma mostra o plano do dia em tela cheia, com rotina, tarefas, eventos e clima: atividade ao ar livre cai nas horas de sol. Sem a IA, o dia é montado só pela matriz e pelos eventos. A tela está concluída. Arrastar blocos e a semana planejada pela IA ficam para a v2.
 
 <p align="center"><img src="./assets/screens/cronograma.png" alt="Cronograma do dia gerado pela IA, com horários, eventos e tarefas e o progresso de blocos feitos." width="92%"><br><sub>Cronograma do dia gerado pela IA, com horários, eventos e tarefas e o progresso de blocos feitos.</sub></p>
 
 #### Board (Kanban)
-Colunas, cartões com checklist, importância e primeiro passo, filtros, arraste por mouse ou teclado. Arrastar para a coluna Feito conclui a tarefa. Cartões de aniversário nascem sozinhos. Status: concluído.
+O Board tem colunas, cartões com checklist, importância e primeiro passo, filtros e arraste por mouse ou teclado. Arrastar para a coluna Feito conclui a tarefa, e os cartões de aniversário nascem sozinhos. Ele está concluído.
 
 <p align="center"><img src="./assets/screens/board.png" alt="Board em colunas (Backlog, A fazer, Fazendo, Feito), com áreas coloridas, prazos e o cartão de aniversário." width="92%"><br><sub>Board em colunas (Backlog, A fazer, Fazendo, Feito), com áreas coloridas, prazos e o cartão de aniversário.</sub></p>
 
 #### Matriz
-Tarefas por urgência e importância. Status: concluído.
+A Matriz organiza as tarefas por urgência e importância. Está concluída.
 
 <p align="center"><img src="./assets/screens/matriz.png" alt="Matriz de prioridade: importância contra prazo, com os quatro quadrantes e as áreas em cores." width="92%"><br><sub>Matriz de prioridade: importância contra prazo, com os quatro quadrantes e as áreas em cores.</sub></p>
 
 #### Calendário
-Vistas Dia, Semana, Mês e Agenda, sincronização com o Google a cada 30 segundos, fila de escrita offline com selo "pendente" e diálogo para desconectar a conta. O app nunca apaga evento no Google: apagar aqui marca como ignorado e manda para a Lixeira. Vistas: concluído. Semana, detalhe e formulário de evento: em andamento.
+O Calendário tem as vistas Dia, Semana, Mês e Agenda e sincroniza com o Google a cada 30 segundos. Uma fila de escrita offline guarda o que foi gravado sem rede, com o selo "pendente", e um diálogo permite desconectar a conta. O app nunca apaga evento no Google: apagar aqui marca como ignorado e manda para a Lixeira. As vistas estão concluídas, e a semana, o detalhe e o formulário de evento estão em andamento.
 
 <p align="center"><img src="./assets/screens/calendario.png" alt="Calendário em visão semanal, com a mini-agenda lateral, a lista de agendas e os eventos do dia." width="92%"><br><sub>Calendário em visão semanal, com a mini-agenda lateral, a lista de agendas e os eventos do dia.</sub></p>
 
 #### Foco e triagem
-Bloco com pausas curta e longa, tempo na bandeja e no título, bipe e notificação no fim. Foco: concluído. Triagem: em andamento.
+O Foco roda blocos com pausas curta e longa, mostra o tempo na bandeja e no título e avisa o fim com bipe e notificação. O foco está concluído, e a triagem está em andamento.
 
 <p align="center"><img src="./assets/screens/foco.png" alt="Foco em andamento sobre uma tarefa, com o cronômetro, o checklist de preparo e as ideias anotadas para depois." width="92%"><br><sub>Foco em andamento sobre uma tarefa, com o cronômetro, o checklist de preparo e as ideias anotadas para depois.</sub></p>
 
 #### Revisão
-Fecha o dia e convida pelo Windows ao fim da rotina do jantar. Status: concluído.
+A Revisão fecha o dia e convida pelo Windows ao fim da rotina do jantar. Está concluída.
 
 <p align="center"><img src="./assets/screens/revisao.png" alt="Revisão do dia: planejado contra feito, o que ficou por fazer e a nota de foco do dia." width="92%"><br><sub>Revisão do dia: planejado contra feito, o que ficou por fazer e a nota de foco do dia.</sub></p>
 
 #### Pessoas
-Cadastro com aniversário e preferências. Status: concluído.
+O cadastro guarda o aniversário e as preferências de cada pessoa. Está concluído.
 
 <p align="center"><img src="./assets/screens/pessoas.png" alt="Lista de pessoas com relação, aniversário e anotações; o aniversário próximo aparece em destaque." width="92%"><br><sub>Lista de pessoas com relação, aniversário e anotações; o aniversário próximo aparece em destaque.</sub></p>
 
 #### Lembretes
-Núcleo, job de disparo, notificação do Windows e lista no pop-up com OK e Adiar existem no código. Status: em andamento.
+O núcleo, o job de disparo, a notificação do Windows e a lista no pop-up com OK e Adiar já existem no código. A tela está em andamento.
 
 <p align="center"><img src="./assets/screens/lembretes.png" alt="Lembretes agendados, com OK, Adiar 10 min e Cancelar em cada linha, e a origem (tela ou voz)." width="92%"><br><sub>Lembretes agendados, com OK, Adiar 10 min e Cancelar em cada linha, e a origem (tela ou voz).</sub></p>
 
 #### Memória
-Páginas gravadas pela IA, com fixar, esquecer, limite de 1 GB e busca por palavra. O núcleo e as tabelas existem. Status: em andamento. Busca por sentido com embeddings locais é da v2.
+A memória guarda páginas gravadas pela IA, com fixar, esquecer, limite de 1 GB e busca por palavra. O núcleo e as tabelas existem, e a tela está em andamento. A busca por sentido com embeddings locais fica para a v2.
 
 <p align="center"><img src="./assets/screens/memoria.png" alt="Memória do assistente: fatos, procedimentos e episódios, com fixar, editar, apagar e o medidor de uso." width="92%"><br><sub>Memória do assistente: fatos, procedimentos e episódios, com fixar, editar, apagar e o medidor de uso.</sub></p>
 
 #### Lixeira
-Exclusão lógica em todo módulo, restauração e purga automática após 30 dias. Status: em andamento.
+A exclusão é lógica em todo módulo, com restauração e purga automática após 30 dias. A Lixeira está em andamento.
 
 <p align="center"><img src="./assets/screens/lixeira.png" alt="Lixeira com restauração em 30 dias: tarefas, eventos, pessoas, lembretes e páginas de memória apagados." width="92%"><br><sub>Lixeira com restauração em 30 dias: tarefas, eventos, pessoas, lembretes e páginas de memória apagados.</sub></p>
 
 #### Configurações
-Chave da API, cidade, Google, atalho, iniciar com o Windows, restaurar backup e passo a passo de primeiro uso. Status: em andamento.
+As Configurações reúnem a chave da API, a cidade, o Google, o atalho, o iniciar com o Windows, a restauração de backup e o passo a passo de primeiro uso. Elas estão em andamento.
 
 <p align="center"><img src="./assets/screens/configuracoes.png" alt="Configurações: voz e atalho, chave da IA, gasto do mês e teto, e a conexão com o Google Calendar." width="92%"><br><sub>Configurações: voz e atalho, chave da IA, gasto do mês e teto, e a conexão com o Google Calendar.</sub></p>
 
@@ -152,7 +152,7 @@ flowchart LR
     TYPES --> UI
 ```
 
-Modelo de dados, resumido por migrações numeradas (hoje 16): tarefas, colunas, etiquetas, checklist e vínculos com pessoas; eventos, séries e fila de saída para o Google; pessoas; sessões e notas de foco; planos e blocos do cronograma; revisões do dia; lembretes; conversas, mensagens, ações e uso do assistente; páginas, versões, entidades e ligações da memória; configurações e cache de clima.
+O modelo de dados, resumido por migrações numeradas (hoje 16), cobre: tarefas, colunas, etiquetas, checklist e vínculos com pessoas; eventos, séries e fila de saída para o Google; pessoas; sessões e notas de foco; planos e blocos do cronograma; revisões do dia; lembretes; conversas, mensagens, ações e uso do assistente; páginas, versões, entidades e ligações da memória; configurações e cache de clima.
 
 ### Decisões de engenharia
 
@@ -182,10 +182,10 @@ Em 05/11/2026, 1.031 testes TypeScript passavam. Uma rodada anterior registrada 
 
 ### O que falta
 
-- Instalador sem elevação, testes de ponta a ponta no app empacotado e medição final de desempenho: não iniciados.
-- Voz em fase de medição: a escuta local e a transcrição em streaming têm runners prontos, e as medições com a voz do usuário constam como não rodadas.
-- Ferramentas de lembrete e das ondas de memória e PC no assistente, e parte das telas de Lembretes e Memória, em acabamento.
-- Pendências abertas de calendário, lixeira e dashboard estão listadas em arquivos próprios.
-- Versão 2, só planejada: servidor MCP para outros agentes do PC, abrir sessões do Claude Code, lembretes que se repetem, séries de eventos, cronograma da semana pela IA, arrastar blocos, memória com busca por sentido.
+- O instalador sem elevação, os testes de ponta a ponta no app empacotado e a medição final de desempenho ainda não foram iniciados.
+- A voz está em fase de medição: a escuta local e a transcrição em streaming têm runners prontos, e as medições com a voz do usuário constam como não rodadas.
+- As ferramentas de lembrete e das ondas de memória e PC no assistente, e parte das telas de Lembretes e Memória, estão em acabamento.
+- As pendências abertas de calendário, lixeira e dashboard estão listadas em arquivos próprios.
+- A versão 2 está só planejada e prevê um servidor MCP para outros agentes do PC, a abertura de sessões do Claude Code, lembretes que se repetem, séries de eventos, o cronograma da semana pela IA, o arraste de blocos e a memória com busca por sentido.
 
 <sub>Contato: <a href="https://joaocouto.alcetus.com">joaocouto.alcetus.com</a> · <a href="mailto:joaopecouto77@gmail.com">joaopecouto77@gmail.com</a></sub>
