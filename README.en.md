@@ -22,13 +22,13 @@
 
 Ok, Claude is a personal agenda for Windows desktop with an assistant that answers to voice or text. It brings together tasks in a Board and a priority Matrix, a calendar synced with Google, a daily schedule with weather, focus sessions, an end-of-day review, a people directory with birthdays, reminders and a long-term memory. The assistant works on the same data: it creates a task, books an event, opens a folder, does a calculation or searches the web.
 
-The app is designed for one user on one computer. It lives in the system tray, listens for the wake phrase "OK Claude" or opens its pop-up with a global shortcut, and works offline. Only the AI, Google and weather need a network. Data lives in a local SQLite database, with no server and no account.
+The app is designed for one user on one computer. It lives in the system tray, listens for the wake phrase "OK Claude" or opens its pop-up with a global shortcut, and even works offline. Only the AI, Google and the weather need a network. Data lives in a local SQLite database, with no server and no account.
 
 The code is private. This text describes what the product does and how it was designed, drawn from the project documentation, and the project is under active development. Each screen and module below carries the status recorded in the documents.
 
 ### How it works
 
-A day of use:
+A day of use, start to finish:
 
 1. The app starts in the tray when Windows boots and begins listening for the wake phrase.
 2. In the morning, the Today screen shows the day summary, the weather and the "Your day" schedule block, built from tasks, events and routine.
