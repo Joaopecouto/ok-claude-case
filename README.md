@@ -3,11 +3,26 @@
 <p align="center">Agenda desktop com assistente de IA<br><sub><i>Desktop planner with an AI assistant</i></sub></p>
 
 <p align="center">
-  <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/tauri.svg" height="15" alt=""> Tauri</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/rust.svg" height="15" alt=""> Rust</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/react.svg" height="15" alt=""> React</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/typescript.svg" height="15" alt=""> TypeScript</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/sqlite.svg" height="15" alt=""> SQLite</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/anthropic.svg" height="15" alt=""> Claude API</kbd>
+  <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/tauri.svg" height="18" alt=""> Tauri</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/rust.svg" height="18" alt=""> Rust</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/react.svg" height="18" alt=""> React</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/typescript.svg" height="18" alt=""> TypeScript</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/sqlite.svg" height="18" alt=""> SQLite</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/claude-api.svg" height="18" alt=""> Claude API</kbd>
 </p>
 
-> **PT** Case study de um projeto em desenvolvimento. O código é privado.
-> **EN** Case study of a work in progress. The source code is private.
+> **PT** Projeto em desenvolvimento. O código é privado.
+> **EN** Work in progress. The source code is private.
+
+## Telas · Screens
+
+Telas do app com dados de exemplo. · App screens with sample data.
+
+<table>
+<tr>
+<td width="50%"><img src="./assets/screens/board.png" alt="Ok, Claude: board Kanban" width="100%"></td>
+<td width="50%"><img src="./assets/screens/matriz.png" alt="Ok, Claude: matriz de prioridades" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/screens/calendario.png" alt="Ok, Claude: calendário semanal" width="100%"></td>
+<td width="50%"><img src="./assets/screens/cronograma.png" alt="Ok, Claude: cronograma do dia" width="100%"></td>
+</tr>
+</table>
 
 ## Telas · Screens
 
