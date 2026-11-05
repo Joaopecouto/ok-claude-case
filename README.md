@@ -1,13 +1,28 @@
 <h1 align="center">Ok, Claude</h1>
 
-<p align="center">Agenda desktop com assistente de IA · <i>Desktop planner with an AI assistant</i></p>
+<p align="center">Agenda desktop com assistente de IA<br><sub><i>Desktop planner with an AI assistant</i></sub></p>
 
 <p align="center">
-  <img src="./assets/chips/tauri.png" alt="Tauri" height="30"> <img src="./assets/chips/rust.png" alt="Rust" height="30"> <img src="./assets/chips/react.png" alt="React" height="30"> <img src="./assets/chips/typescript.png" alt="TypeScript" height="30"> <img src="./assets/chips/sqlite.png" alt="SQLite" height="30"> <img src="./assets/chips/claude-api.png" alt="Claude API" height="30">
+  <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/tauri.svg" height="15" alt=""> Tauri</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/rust.svg" height="15" alt=""> Rust</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/react.svg" height="15" alt=""> React</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/typescript.svg" height="15" alt=""> TypeScript</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/sqlite.svg" height="15" alt=""> SQLite</kbd> <kbd><img src="https://raw.githubusercontent.com/Joaopecouto/Joaopecouto/main/assets/icons/anthropic.svg" height="15" alt=""> Claude API</kbd>
 </p>
 
 > **PT** Case study de um projeto em desenvolvimento. O código é privado.
 > **EN** Case study of a work in progress. The source code is private.
+
+## Telas · Screens
+
+Telas do app com dados de exemplo. · App screens with sample data.
+
+<table>
+<tr>
+<td width="50%"><img src="./assets/screens/board.png" alt="Ok, Claude: board Kanban" width="100%"></td>
+<td width="50%"><img src="./assets/screens/matriz.png" alt="Ok, Claude: matriz de prioridades" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/screens/calendario.png" alt="Ok, Claude: calendário semanal" width="100%"></td>
+<td width="50%"><img src="./assets/screens/cronograma.png" alt="Ok, Claude: cronograma do dia" width="100%"></td>
+</tr>
+</table>
 
 ## Português
 
@@ -43,4 +58,5 @@ A personal desktop planner for Windows with an assistant module that calls the *
 
 Built with **Claude Code subagents in isolated worktrees**, git, test and standards hooks, and CI on every branch. That came to **333 commits in 6 days** (2026-10-29 to 2026-11-03) and **1,031 TypeScript tests** passing on 2026-11-05.
 
-<sub>[joaocouto.alcetus.com](https://joaocouto.alcetus.com) · [joaopecouto77@gmail.com](mailto:joaopecouto77@gmail.com)</sub>
+
+<sub>Contato · Contact: <a href="https://joaocouto.alcetus.com">joaocouto.alcetus.com</a> · <a href="mailto:joaopecouto77@gmail.com">joaopecouto77@gmail.com</a></sub>
