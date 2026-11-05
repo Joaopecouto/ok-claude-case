@@ -13,19 +13,6 @@
 > **PT** Projeto em desenvolvimento. O código é privado.
 > **EN** Work in progress. The source code is private.
 
-<table>
-<tr>
-<td width="50%"><img src="./assets/screens/board.png" alt="Ok, Claude: board Kanban" width="100%"><br><sub>Board · Kanban</sub></td>
-<td width="50%"><img src="./assets/screens/matriz.png" alt="Ok, Claude: matriz de prioridades" width="100%"><br><sub>Matriz · Priority matrix</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="./assets/screens/calendario.png" alt="Ok, Claude: calendário semanal" width="100%"><br><sub>Calendário · Calendar</sub></td>
-<td width="50%"><img src="./assets/screens/cronograma.png" alt="Ok, Claude: cronograma do dia" width="100%"><br><sub>Cronograma · Daily schedule</sub></td>
-</tr>
-</table>
-
-<p align="center"><sub>Telas com dados de exemplo · Screens with sample data</sub></p>
-
 ## Português
 
 <table>
@@ -73,42 +60,68 @@ O andamento abaixo reflete a documentação do projeto em novembro de 2026.
 #### Hoje (Dashboard)
 Resumo do dia, próximo compromisso com link de reunião vindo do Google e clima. O resumo escrito pela IA fica guardado por dia, com botão para pedir outro, respeitando o teto de gasto. Status: em andamento.
 
+<p align="center"><img src="./assets/screens/hoje.png" alt="Tela Hoje: resumo do dia escrito pela IA, blocos do plano, clima, aniversário e foco do dia." width="92%"><br><sub>Tela Hoje: resumo do dia escrito pela IA, blocos do plano, clima, aniversário e foco do dia.</sub></p>
+
 #### Cronograma
 Plano do dia em tela cheia, com rotina, tarefas, eventos e clima: atividade ao ar livre cai nas horas de sol. Sem a IA, o dia é montado só pela matriz e pelos eventos. Status da tela: concluído. Arrastar blocos e a semana planejada pela IA são da v2.
+
+<p align="center"><img src="./assets/screens/cronograma.png" alt="Cronograma do dia gerado pela IA, com horários, eventos e tarefas e o progresso de blocos feitos." width="92%"><br><sub>Cronograma do dia gerado pela IA, com horários, eventos e tarefas e o progresso de blocos feitos.</sub></p>
 
 #### Board (Kanban)
 Colunas, cartões com checklist, importância e primeiro passo, filtros, arraste por mouse ou teclado. Arrastar para a coluna Feito conclui a tarefa. Cartões de aniversário nascem sozinhos. Status: concluído.
 
+<p align="center"><img src="./assets/screens/board.png" alt="Board em colunas (Backlog, A fazer, Fazendo, Feito), com áreas coloridas, prazos e o cartão de aniversário." width="92%"><br><sub>Board em colunas (Backlog, A fazer, Fazendo, Feito), com áreas coloridas, prazos e o cartão de aniversário.</sub></p>
+
 #### Matriz
 Tarefas por urgência e importância. Status: concluído.
+
+<p align="center"><img src="./assets/screens/matriz.png" alt="Matriz de prioridade: importância contra prazo, com os quatro quadrantes e as áreas em cores." width="92%"><br><sub>Matriz de prioridade: importância contra prazo, com os quatro quadrantes e as áreas em cores.</sub></p>
 
 #### Calendário
 Vistas Dia, Semana, Mês e Agenda, sincronização com o Google a cada 30 segundos, fila de escrita offline com selo "pendente" e diálogo para desconectar a conta. O app nunca apaga evento no Google: apagar aqui marca como ignorado e manda para a Lixeira. Vistas: concluído. Semana, detalhe e formulário de evento: em andamento.
 
+<p align="center"><img src="./assets/screens/calendario.png" alt="Calendário em visão semanal, com a mini-agenda lateral, a lista de agendas e os eventos do dia." width="92%"><br><sub>Calendário em visão semanal, com a mini-agenda lateral, a lista de agendas e os eventos do dia.</sub></p>
+
 #### Foco e triagem
 Bloco com pausas curta e longa, tempo na bandeja e no título, bipe e notificação no fim. Foco: concluído. Triagem: em andamento.
+
+<p align="center"><img src="./assets/screens/foco.png" alt="Foco em andamento sobre uma tarefa, com o cronômetro, o checklist de preparo e as ideias anotadas para depois." width="92%"><br><sub>Foco em andamento sobre uma tarefa, com o cronômetro, o checklist de preparo e as ideias anotadas para depois.</sub></p>
 
 #### Revisão
 Fecha o dia e convida pelo Windows ao fim da rotina do jantar. Status: concluído.
 
+<p align="center"><img src="./assets/screens/revisao.png" alt="Revisão do dia: planejado contra feito, o que ficou por fazer e a nota de foco do dia." width="92%"><br><sub>Revisão do dia: planejado contra feito, o que ficou por fazer e a nota de foco do dia.</sub></p>
+
 #### Pessoas
 Cadastro com aniversário e preferências. Status: concluído.
+
+<p align="center"><img src="./assets/screens/pessoas.png" alt="Lista de pessoas com relação, aniversário e anotações; o aniversário próximo aparece em destaque." width="92%"><br><sub>Lista de pessoas com relação, aniversário e anotações; o aniversário próximo aparece em destaque.</sub></p>
 
 #### Lembretes
 Núcleo, job de disparo, notificação do Windows e lista no pop-up com OK e Adiar existem no código. Status: em andamento.
 
+<p align="center"><img src="./assets/screens/lembretes.png" alt="Lembretes agendados, com OK, Adiar 10 min e Cancelar em cada linha, e a origem (tela ou voz)." width="92%"><br><sub>Lembretes agendados, com OK, Adiar 10 min e Cancelar em cada linha, e a origem (tela ou voz).</sub></p>
+
 #### Memória
 Páginas gravadas pela IA, com fixar, esquecer, limite de 1 GB e busca por palavra. O núcleo e as tabelas existem. Status: em andamento. Busca por sentido com embeddings locais é da v2.
+
+<p align="center"><img src="./assets/screens/memoria.png" alt="Memória do assistente: fatos, procedimentos e episódios, com fixar, editar, apagar e o medidor de uso." width="92%"><br><sub>Memória do assistente: fatos, procedimentos e episódios, com fixar, editar, apagar e o medidor de uso.</sub></p>
 
 #### Lixeira
 Exclusão lógica em todo módulo, restauração e purga automática após 30 dias. Status: em andamento.
 
+<p align="center"><img src="./assets/screens/lixeira.png" alt="Lixeira com restauração em 30 dias: tarefas, eventos, pessoas, lembretes e páginas de memória apagados." width="92%"><br><sub>Lixeira com restauração em 30 dias: tarefas, eventos, pessoas, lembretes e páginas de memória apagados.</sub></p>
+
 #### Configurações
 Chave da API, cidade, Google, atalho, iniciar com o Windows, restaurar backup e passo a passo de primeiro uso. Status: em andamento.
+
+<p align="center"><img src="./assets/screens/configuracoes.png" alt="Configurações: voz e atalho, chave da IA, gasto do mês e teto, e a conexão com o Google Calendar." width="92%"><br><sub>Configurações: voz e atalho, chave da IA, gasto do mês e teto, e a conexão com o Google Calendar.</sub></p>
 
 ### O assistente de IA
 
 O pedido chega por voz ou texto ao pop-up. O cliente fala com a API da Anthropic usando o modelo Haiku, com a parte fixa do prompt e as ferramentas em cache. A transcrição é local, porque a API não recebe áudio.
+
+<p align="center"><img src="./assets/screens/popup.png" alt="Pop-up do assistente: um pedido digitado, a resposta, a ação feita e o botão Desfazer." width="92%"><br><sub>Pop-up do assistente: um pedido digitado, a resposta, a ação feita e o botão Desfazer.</sub></p>
 
 Há cerca de 30 ferramentas: tarefas (criar, atualizar, concluir, buscar, apagar), eventos, pessoas, lembretes, cronograma, clima, foco, calculadora, memória, abrir app, pasta ou site, ler e buscar arquivo, e rodar comando. Cada pedido faz no máximo 8 chamadas.
 
@@ -225,42 +238,68 @@ Progress below reflects the project documentation as of November 2026.
 #### Today (Dashboard)
 Day summary, next appointment with a meeting link taken from Google, and weather. The AI-written summary is stored per day, with a button to ask for a new one, within the spending cap. Status: in progress.
 
+<p align="center"><img src="./assets/screens/hoje.png" alt="Today screen: the AI-written day summary, plan blocks, weather, birthday and the day focus." width="92%"><br><sub>Today screen: the AI-written day summary, plan blocks, weather, birthday and the day focus.</sub></p>
+
 #### Schedule
 Full-screen daily plan with routine, tasks, events and weather: outdoor activities land in the sunny hours. Without the AI, the day is built from the matrix and the events alone. Screen status: done. Dragging blocks and the AI-planned week belong to v2.
+
+<p align="center"><img src="./assets/screens/cronograma.png" alt="AI-generated schedule for the day, with times, events, tasks and block progress." width="92%"><br><sub>AI-generated schedule for the day, with times, events, tasks and block progress.</sub></p>
 
 #### Board (Kanban)
 Columns, cards with checklist, importance and first step, filters, drag by mouse or keyboard. Dragging to the Done column completes the task. Birthday cards are created automatically. Status: done.
 
+<p align="center"><img src="./assets/screens/board.png" alt="Kanban board with its four columns, colored areas, due dates and the birthday card." width="92%"><br><sub>Kanban board with its four columns, colored areas, due dates and the birthday card.</sub></p>
+
 #### Matrix
 Tasks by urgency and importance. Status: done.
+
+<p align="center"><img src="./assets/screens/matriz.png" alt="Priority matrix: importance against due date, four quadrants, areas by color." width="92%"><br><sub>Priority matrix: importance against due date, four quadrants, areas by color.</sub></p>
 
 #### Calendar
 Day, Week, Month and Agenda views, Google sync every 30 seconds, an offline write queue with a "pending" badge and a dialog to disconnect the account. The app never deletes an event on Google: deleting here marks it as ignored and sends it to the Trash. Views: done. Week, detail and event form: in progress.
 
+<p align="center"><img src="./assets/screens/calendario.png" alt="Calendar in week view, with the side mini-month, the calendar list and the day events." width="92%"><br><sub>Calendar in week view, with the side mini-month, the calendar list and the day events.</sub></p>
+
 #### Focus and triage
 Blocks with short and long breaks, time in the tray and window title, a beep and a notification at the end. Focus: done. Triage: in progress.
+
+<p align="center"><img src="./assets/screens/foco.png" alt="A focus session running on a task, with the timer, the pre-start checklist and the notes parked for later." width="92%"><br><sub>A focus session running on a task, with the timer, the pre-start checklist and the notes parked for later.</sub></p>
 
 #### Review
 Closes the day and invites the user through Windows at the end of the dinner routine. Status: done.
 
+<p align="center"><img src="./assets/screens/revisao.png" alt="Day review: planned versus done, what was left and the owner focus note." width="92%"><br><sub>Day review: planned versus done, what was left and the owner focus note.</sub></p>
+
 #### People
 Directory with birthdays and preferences. Status: done.
+
+<p align="center"><img src="./assets/screens/pessoas.png" alt="People list with relation, birthday and notes; the upcoming birthday is highlighted." width="92%"><br><sub>People list with relation, birthday and notes; the upcoming birthday is highlighted.</sub></p>
 
 #### Reminders
 Core, firing job, Windows notification and a pop-up list with OK and Snooze exist in the code. Status: in progress.
 
+<p align="center"><img src="./assets/screens/lembretes.png" alt="Scheduled reminders, each with OK, Snooze 10 min and Cancel, and where it came from (screen or voice)." width="92%"><br><sub>Scheduled reminders, each with OK, Snooze 10 min and Cancel, and where it came from (screen or voice).</sub></p>
+
 #### Memory
 Pages written by the AI, with pin, forget, a 1 GB limit and keyword search. The core and tables exist. Status: in progress. Semantic search with local embeddings belongs to v2.
+
+<p align="center"><img src="./assets/screens/memoria.png" alt="Assistant memory: facts, procedures and episodes, with pin, edit, delete and the usage meter." width="92%"><br><sub>Assistant memory: facts, procedures and episodes, with pin, edit, delete and the usage meter.</sub></p>
 
 #### Trash
 Soft delete in every module, restore and automatic purge after 30 days. Status: in progress.
 
+<p align="center"><img src="./assets/screens/lixeira.png" alt="Trash with 30-day restore: deleted tasks, events, people, reminders and memory pages." width="92%"><br><sub>Trash with 30-day restore: deleted tasks, events, people, reminders and memory pages.</sub></p>
+
 #### Settings
 API key, city, Google, shortcut, start with Windows, backup restore and a first-use walkthrough. Status: in progress.
+
+<p align="center"><img src="./assets/screens/configuracoes.png" alt="Settings: voice and shortcut, AI key, monthly spend and cap, and the Google Calendar connection." width="92%"><br><sub>Settings: voice and shortcut, AI key, monthly spend and cap, and the Google Calendar connection.</sub></p>
 
 ### The AI assistant
 
 A request reaches the pop-up by voice or text. The client talks to the Anthropic API using the Haiku model, with the fixed part of the prompt and the tools cached. Transcription is local, because the API does not accept audio.
+
+<p align="center"><img src="./assets/screens/popup.png" alt="Assistant pop-up: a typed request, the answer, the action taken and the Undo button." width="92%"><br><sub>Assistant pop-up: a typed request, the answer, the action taken and the Undo button.</sub></p>
 
 There are about 30 tools: tasks (create, update, complete, search, delete), events, people, reminders, schedule, weather, focus, calculator, memory, opening an app, folder or site, reading and searching files, and running a command. Each request makes at most 8 calls.
 
